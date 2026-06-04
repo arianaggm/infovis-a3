@@ -3,25 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>InfoVis - Assignment 3</title>
-    
-    <!-- Loading D3.js version 7.8.4-->
     <script src="libs/d3-7.8.4.min.js"></script>
-    
-    <!-- Loading Bootstrap CSS -->
     <link rel="stylesheet" href="libs/bootstrap-5.3.0-alpha3.min.css">
-
-    <!-- Loading CSS styles; use if needed -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- YOUR SOLUTION GOES HERE-->
-    InfoVis Assignment 3
+    <div class="container-fluid p-3">
+        <h2 class="mb-4">InfoVis Assignment 3 — Champions League 2017/18</h2>
 
-    <!-- Loading Bootstrap js version 5.3.0 -->
+        <!-- Parallel Coordinates Plot -->
+        <div class="card mb-4">
+            <div class="card-header"><strong>Parallel Coordinates Plot</strong></div>
+            <div class="card-body">
+                <div id="pcp"></div>
+            </div>
+        </div>
+
+        <!-- Scatterplot Matrix -->
+        <div class="card">
+            <div class="card-header"><strong>Scatterplot Matrix</strong></div>
+            <div class="card-body">
+                <div id="splom"></div>
+            </div>
+        </div>
+    </div>
+
     <script src="libs/bootstrap-5.3.0-alpha3.bundle.min.js"></script>
-
-    <!-- loading the main javascript file; implement logic there -->
     <script src="main.js"></script>
 </body>
 </html>
